@@ -1,3 +1,3 @@
-# Cambridge Rentals'
+# Cambridge Rentals
 
-A rental site built using react to polish my react skills
+A rental site built using react to polish my React skills
