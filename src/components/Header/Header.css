@@ -1,11 +1,4 @@
-:root {
-    --whitesmoke:     #F6FAFA;
-    --darktuqoise:    #033735;
-    --lightturqoise:    #73e7df;
-    --color-dark:       var(--darktuqoise);
-    --color-light:      var(--whitesmoke);
-    --color-primary:    var(--lightturqoise);
-}
+@import "../../App.css";
 
 .header {
     position: fixed;
