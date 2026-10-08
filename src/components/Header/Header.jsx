@@ -5,16 +5,16 @@ const Header = () => {
 
     return (
         <header className="header"> 
-            <div>
-                <House />
+            <div className="item brand">
+                <House className="icon"/>
                 <span> Cambridge Rentals </span>
             </div>
-            <div>
-                <Phone />
+            <div className="item contact">
+                <Phone className="icon"/>
                 <span>111-111-1111</span>
             </div>
-            <div>
-                <Mail />
+            <div className="item contact">
+                <Mail className="icon"/>
                 <span>contact@cambridgerental.com</span>
             </div>
         </header>
