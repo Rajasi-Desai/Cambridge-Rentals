@@ -20,7 +20,7 @@
 
 .item .icon {
     color: var(--lightturqoise);
-    margin-right: 8px;
+    margin-right: 0.5rem;
 }
 
 .item span {

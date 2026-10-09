@@ -1,0 +1,41 @@
+@import "../../App.css";
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.625rem;
+}
+
+.footer .icon {
+    color: var(--lightturqoise);
+    margin-right: 0.5rem;
+}
+
+.footer .status {
+    font-weight: bold;
+}
+
+.footer .status.open {
+    color: var(--lightturqoise);
+}
+
+.footer .status.closed {
+    color: red;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-div {
+    margin-top: 0.5rem;
+}
