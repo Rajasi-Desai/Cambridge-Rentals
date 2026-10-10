@@ -1,0 +1,14 @@
+@import "../../../../../App.css";
+
+.property-type-label {
+    position: absolute;
+    top: 0.625rem;
+    right: 0.625rem;
+    background-color: rgba(115, 231, 223, 0.9);
+    color: var(--color-light);
+    padding: 0.3125rem 0.625rem; 
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
