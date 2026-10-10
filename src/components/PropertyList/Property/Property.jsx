@@ -1,8 +1,10 @@
 import "./Property.css" 
+import "../../../App.css"
 import PropertyImage from "./PropertyImage/PropertyImage";
 import PropertyTypeLabel from "./PropertyImage/PropertyTypeLabel/PropertyTypeLabel";
 import PropertyBanner from "./PropertyImage/PropertyBanner/PropertyBanner";
 import IconWithText from "./PropertyImage/IconWithText/IconWithText";
+import PropertyAttribute from "./PropertyAttribute/PropertyAttribute";
 import { Bed, Bath, Maximize } from 'lucide-react';
 
 const Property = ({
@@ -42,9 +44,13 @@ const Property = ({
                     />
                 </div>
             </PropertyImage>
-            <div>
-            Property attributes
-            </div>
+            <PropertyAttribute text={address} />
+            <PropertyAttribute 
+                text={`$${rent} / month`} 
+                color="var(--color-primary)"
+                bold
+            />
+            <PropertyAttribute text={`Available from ${date}`} />
         </div>
     );
 };

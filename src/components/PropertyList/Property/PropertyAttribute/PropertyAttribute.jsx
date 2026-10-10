@@ -1,10 +1,14 @@
-import "./PropertyAttribute.css" 
+import "./PropertyAttribute.css";
+import "../../../../App.css";
 
-const PropertyAttribute = () => {
-
+const PropertyAttribute = ({ text, color="var(--color-dark)", bold}) => {
+    const style = { color, fontWeight: bold ? "bold" : "normal" };
     return (
-        <p>
-            
+        <p 
+            className="property-attribute"
+            style={style}
+        >
+            {text}
         </p>
     );
 
